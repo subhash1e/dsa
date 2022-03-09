@@ -10,7 +10,7 @@ class Tester {
 		    num1 = tmp;
 		}
 		int temp = num1;
-		while(temp%num2!=0&&temp%num1!=0){
+		while(temp%num2!=0){
 		    temp+=num1;
 		}
 		System.out.println(temp);
