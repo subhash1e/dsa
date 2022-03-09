@@ -65,3 +65,12 @@ int main(int argc, char const *argv[])
 	
 	return 0;
 }
+/* output:
+0 ==>  1 4 
+1 ==>  0 2 
+2 ==>  1 4 3 
+3 ==>  2 4 5 
+4 ==>  0 2 3 
+5 ==>  3 
+
+0 1 2 4 3 5 [Finished in 1.3s]*/
